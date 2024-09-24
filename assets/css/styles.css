@@ -110,10 +110,85 @@ main {
   height: 78vh;
 }
 
+.tips-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .main-section {
   height: 73vh;
   display: flex;
   flex-direction: column;
   padding: 24px;
   gap: 20px;
+}
+
+.curiosidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2-tips-curiosities {
+  margin-bottom: 2vh;
+}
+
+.dicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curiosidades ul,
+.dicas ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 2rem;
+}
+
+.curiosidades li,
+.dicas li {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.mapa iframe {
+  border: none;
+  margin-top: 1rem;
+}
+
+.tips-curiosities-container {
+  width: 50%;
+}
+
+.tips-curiosities-images-container {
+  flex: 1;
+  height: 100%;
+}
+
+.two-images-container {
+  display: flex;
+  flex: 1;
+  height: 50%;
+}
+
+.section-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-image-description {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section-image {
+  object-fit: contain;
+  width: 80%;
+  height: 100%;
 }
