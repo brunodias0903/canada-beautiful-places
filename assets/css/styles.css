@@ -178,10 +178,10 @@ main {
   display: flex;
   flex: 1;
   height: 50%;
-  gap: 12px;
+  gap: 20px;
 }
 
 .section-image {
-  object-fit: fill;
+  object-fit: cover;
   width: 50%;
 }
