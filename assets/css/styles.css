@@ -115,6 +115,8 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .main-section {
@@ -167,7 +169,6 @@ main {
   width: 50%;
   height: 100%;
   padding-top: 20px;
-  margin-right: 24px;
 }
 
 .two-images-container {
